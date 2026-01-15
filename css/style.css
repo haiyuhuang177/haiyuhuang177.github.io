@@ -52,17 +52,7 @@ body {
     width: 100%;
 }
 
-@media (max-width: 768px) {
-    .container {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
 
-    .profile-section {
-        position: static;
-        top: auto;
-    }
-}
 
 /* Sidebar / Profile */
 .profile-section {
@@ -330,4 +320,15 @@ summary:hover {
 
 .book-quotes p:last-child {
     margin-bottom: 0;
+}
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .profile-section {
+        position: static;
+        top: auto;
+    }
 }
